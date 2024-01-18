@@ -1,0 +1,131 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+ 
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .swi{
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp");
+    img{
+        width: 40px;
+        height: 40px;
+    }
+   
+  }
+  .head{
+     height: 760px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 90px;
+    ul{
+        padding-top: 18px;
+        display: flex;
+        gap: 40px;
+        li{
+            font-weight: 100px;
+        }
+    }
+  }
+  .sect{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .imh{
+    gap: 10px;
+    display: flex;
+    margin-left: 80px;
+    padding-top: 10px;
+   
+  }
+  .bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+    gap: 100px;
+  }
+  .head{
+    display: flex;
+    align-items: center;
+  }
+  .ayri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #1a1a1a;
+    height: 161px;
+    width: 365px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    i{
+        font-size: 55px;
+        color: rgb(255, 196, 0);
+    }
+    h3{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 13px;
+        display: flex;
+
+    }
+  }
+
+  .h2{
+    h2{
+        font-size: 72px;
+        color: #fff;
+        span{
+            background-color:rgb(255, 196, 0) ;
+           padding-bottom: 10px;
+           height: 30px;
+        }
+    }
+  }
+  .link{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 1000px;
+  }
+
+  .last{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+    padding-top: 15px;
+   
+  }
