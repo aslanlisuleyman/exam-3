@@ -5,7 +5,7 @@ import axios from "axios"
 import toast from 'react-hot-toast';
 import {Helmet} from "react-helmet";
 const Add = () => {
-    const{filter,deleteHandler}=useContext(MainContext)
+    const{filter,setFilter,setData,deleteHandler}=useContext(MainContext)
     const formik = useFormik({
         initialValues: {
           name: '',
@@ -19,10 +19,18 @@ const Add = () => {
                 return;
             }
             axios.post("http://localhost:3009/user",{...values}).then(res=>{
-                console.log(res)
+                
+                console.log(res.data)
                 resetForm()
                 toast.success("Əlavə olundu")
             })
+
+            axios.get("http://localhost:3009/user").then(res=>{
+                
+            setData([...res.data])
+            setFilter([...res.data])
+        })
+            
           
         },
       });
@@ -90,7 +98,7 @@ const Add = () => {
         return(
 
            <tr key={index}>
-      <td>{item._id.slice(0,5)}</td>
+      <td>{item._id}</td>
       <td>
         <img style={{width:'45px',height:'45px'}} src={item.images} alt="" />
       </td>

@@ -1,0 +1,94 @@
+
+.static__left{
+width: 100%;
+display: flex;
+
+   
+        .static__left__bir{
+        width: 50%;
+        background-color: #ffb606; height: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+        text-align: center;
+        span{
+            color: black;
+        }
+    }
+    .static__left__iki{
+        background: url("https://preview.colorlib.com/theme/course/images/search_background.jpg.webp");
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+       
+        input{
+            width: 442px;
+            height: 42px;
+            padding-left: 40px;
+            border: none;
+        }
+        button{
+            width: 442px;
+            height: 48px;
+            background-color: #ffb606;
+            border: none;
+            color: white;
+        }
+
+    } 
+    }
+
+    .bn14 {
+        font-family: lato,sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        padding: 10px 40px 10px 40px;
+        position: relative;
+        
+        background-color: black;
+      }
+
+      .section__right{
+      
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        
+        img{
+            width: 40px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+      }
+
+      .section__rightt{
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        p{
+            font-size: 14px;
+        }
+
+
+      }
+
+      .gap{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 370px;
+      }
