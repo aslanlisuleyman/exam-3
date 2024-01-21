@@ -25,11 +25,7 @@ const Add = () => {
                 toast.success("Əlavə olundu")
             })
 
-            axios.get("http://localhost:3009/user").then(res=>{
-                
-            setData([...res.data])
-            setFilter([...res.data])
-        })
+            
             
           
         },
